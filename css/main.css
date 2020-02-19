@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+input[type="text"] {
+    padding: 11px;
+    width: 400px;
+    border:none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+    
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+
+#inputForm {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 11px;
+    border:none;
+    background: #fff;
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+}
+
+.active {
+    background: purple;
+    color: #fff;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+.food {
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 5px 0px 5px 20px;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+    background: #fff;
+    margin-top: 10px;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.47);
+    transition: 0.5s;
+}
+.material-icons {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color:purple;
+}
+li:hover {
+    opacity: 0.9;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 200px;
+    color: #fff;
+    background: linear-gradient(90deg, #000004, #140e36, #3b0f70, #641a80, #8c2981, #b5367a, #de4968, #f66e5c, #fe9f6d, #fecf92, #fecf92);
+}
+
+li:hover .material-icons {
+    color: orange;
+}
